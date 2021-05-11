@@ -47,7 +47,7 @@
         <div class="row" style="margin-top: 25px;">
             <div class=col-md-4></div>
             <div class = col-md-4>
-                <form id='form-handler' class="form">
+                <form id='form-handler' class="form" style="display:block;">
                     <div class="form-group" style="align-center">
                         <input id="city-input" class="form-control mr-sm-2" type="text" placeholder="Search by city" required/>
                         <label for=""></label>
@@ -60,12 +60,15 @@
                         <button id='search-btn' style ="margin-top: 15px;" class="btn btn-info btn-block" type="submit">Check Weather</button>
                     </div>
                 </form>
-                <div id="city" style="text-align: center; color: white ;"> </div>
-                <div id="temp" style="text-align: center; color: white;"> </div>
-                <div id="humid" style="text-align: center; color: white ;"> </div>
-                <div id="hi-lo" style="text-align: center; color: white ;"> </div>
-                <div id="cond" style="text-align: center; color: white ;"> </div>
-                <button id="button2" onClick="window.location.reload();" class="btn btn-info btn-block" style="display:none;" type="submit">Check another city</button>
+
+                <div id= "weather">
+                    <div id="city" style="text-align: center; color: white ;"> </div>
+                    <div id="temp" style="text-align: center; color: white;"> </div>
+                    <div id="humid" style="text-align: center; color: white ;"> </div>
+                    <div id="hi-lo" style="text-align: center; color: white ;"> </div>
+                    <div id="cond" style="text-align: center; color: white ;"> </div>
+                    <button id="button2" onClick="window.location.reload();" class="btn btn-info btn-block" style="display:none;" type="submit">Check another city</button>
+                </div>
             </div>
             <div class=col-md-4></div>
         </div>
